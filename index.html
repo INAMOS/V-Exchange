@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+
+<html>
+
+	<head>
+		<title>V-Exchange</title>
+		<meta charset="utf-8">
+
+		<link rel="stylesheet" type="text/css" href="Estilos/main.css">
+		<link rel="icon" href="Imagenes/ethereum.png">
+		
+	</head>
+
+	<body>
+		
+
+		<section id="portada" class="portada"> <!--portada-->
+		<header id="header" class="header contenedor">
+			
+			<figure class="logotipo">
+				<img  src="Imagenes/ethereum.svg" width="150" height="100" alt="Ethreum logo">
+			</figure>
+
+			<nav class="menu"> <!--menu-->
+				<ul>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+
+						<li>
+							<a href="PHP/login.php">Iniciar sesion</a>
+						</li>
+					
+
+					<li>
+						<a href="#info">Info</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+			
+				<div class="contenedor">		
+					
+					<h1 class="titulo">V-<span>Ex</span>change</h1><!--titulo-->
+
+					<h3 class="title-a">El Poder del Blockchain en tus manos</h3><!--slogan-->
+
+					<button class="button" onclick="location.href='cripto.html'">Conoce más</button><!--Boton-->
+				</div>
+			
+		</section>
+
+		<section id="info" class=" contenedor">
+
+			<h2>Nuestros Servicios</h2>
+
+			<article class="ether">
+				<img  class="derecha" src="Imagenes/ethereum2.png" alt="solidity" width="170">
+				<h3>Seguridad SHA3</h3>
+				<ol>
+					<li>Algoritmo de cifrado irrompible</li>
+					<li>Transacciones mas seguras</li>
+					<li>Mayor Rapidez</li>
+				</ol>
+			</article>
+
+			<article class="ether">
+
+				<img class="izquierda" src="Imagenes/solidity.png" alt="trasnparent ethreum" width="170">
+				<h3> Smart contracts</h3>
+				<ol>
+					<li>Blockchain Programable</li>
+					<li>Estandar Erc20</li>
+					<li>Mayor Tamaño de Bloques</li>
+				</ol>
+			</article>
+
+		</section>
+
+		<footer class="footer">
+			<div class="contenedor">
+				
+				<div class="contacto">
+					<img   src="Imagenes/ethereum.png" width="100px" height="100px" alt="ethreum-footer" >
+					<div style="display:flex">
+						<a href="tel:+5802763560187"><strong>Telefono</strong><span>+58 276-3560187</span></a>
+						<a href="mailto:edwardhurtado@live.com"><strong>E-mail</strong>Exchange@gmail.com</a>	
+					</div>
+				</div>
+
+				<form class="formulario">
+
+					<div class="col1">
+						<label for="nombre">Contacto</label>
+
+						<input type="text" required id="nombre" >
+
+
+						<label for="email">E-mail</label>
+						<input type="email" name="email">
+
+						<div class="sexo">
+							<label for="mujer">
+								<input type="radio" id="mujer" name="sexo" value="mujer">Mujer
+							</label>
+							<label for="hombre">
+								<input type="radio" id="hombre" name="sexo" value="hombre">Hombre
+							</label>
+						</div>
+					
+					<div class="intereses">
+
+						<label for="cotizacion">
+							<input type="checkbox" id="cotizacion" name="intereses">cotizacion
+						</label>
+						
+						<label for="reclamos">
+							<input type="checkbox" id="reclamos" name="intereses">reclamos
+						</label>
+
+						<label for="comentarios">
+							<input type="checkbox" id="comentarios" name="intereses">comentarios
+						</label>
+
+						<label for="otros">
+							<input type="checkbox" id="otros" name="intereses">otros
+						</label>
+					</div>
+
+					</div>
+					<div class="col2">
+						<div class="comentarios">
+						<label>Comentarios</label>
+
+						<textarea name="comentarios" id="comentarios" cols="30" rows="4"></textarea>
+
+						<input class="button" type="submit" value="Enviar">
+						</div>
+					</div>
+				</form>
+			</div>
+
+		</footer>
+
+	</body>
+
+</html>

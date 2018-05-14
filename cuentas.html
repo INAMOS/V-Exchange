@@ -1,0 +1,52 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ethereum</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">  
+    <script src="web3.js-master/dist/web3.min.js"></script>
+    <script src="Scripts/conection.js"></script>
+    <script src="Scripts/send.js"></script>
+    
+</head>
+<body style="background-color:rgb(237, 237, 237)">
+    
+    
+
+    <script>
+        
+       
+        web3.eth.defaultAccount=web3.eth.accounts[0];
+
+        var cuenta1=web3.eth.accounts[0];
+        var cuenta2=web3.eth.accounts[1];
+
+        balance1=web3.eth.getBalance(cuenta1);
+        balance2=web3.eth.getBalance(cuenta2);
+       
+        document.write("<h1>cuenta1:"+cuenta1+"</h1>");
+        document.write("<h1>balance:"+web3.fromWei(balance1,"ether") +" ether</h1>");
+        
+        document.write("<h1>cuenta2:"+cuenta2+"</h1>");
+        document.write("<h1>balance:"+ web3.fromWei(balance2,"ether")+" ether </h1>");
+ 
+        function getConexion(){
+
+            return web3;
+        }
+
+    </script>
+
+    direccion<input id="direccion" type="text" placeholder="Inserte direccion" required>
+    cantidad<input id="cantidad" type="text" placeholder="Monto" required>
+    
+    <button id="boton"  onclick="enviar()">Enviar</button>
+
+    <button onclick="getData()">Obtener Info</button>
+
+    <a href="pueba.html">ir a otra pagina</a>
+
+</body>
+ 
+</html>

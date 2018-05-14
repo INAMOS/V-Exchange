@@ -1,0 +1,227 @@
+body{
+
+	font-family: 'Allerta', sans-serif;
+    margin: 0;
+ 
+}
+
+figure{
+	
+	text-align: center;
+	color: white;
+}
+
+.titulo{
+
+	font-size: 70px;
+	margin-bottom: 0;
+	margin-top: 70px;
+}
+
+.titulo span{
+	text-decoration: underline;
+}
+.decoracion-titulo{
+	background: #34495e ;
+	margin: auto;
+}
+
+.title-a{
+	font-family:'Montserrat',sans-serif;
+	font-size: 24px;
+	margin-left: 2px;
+	margin-top: 2px;
+}
+
+.title-b{
+	font-size: 50px;
+}
+
+#info{
+	color: #1F313C;
+}
+
+.info h2{
+
+	font-size:35px ;
+	font-family: 'Monseratt',sans-serif;
+}
+
+.portada{
+	/*background:#273b47 ;*/
+	background-image: url('../Imagenes/Ethereum-background-23.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color:white;
+	padding: 20px;
+	height: 500px;
+}
+
+.portadaU{
+	background-image: url('../Imagenes/Ethereum-background-33.jpg');
+}
+
+
+.menu{
+
+	font-size:24px; 
+	display: inline-block;
+	position: absolute;
+    right: 0;
+   
+}
+
+.logotipo{
+
+	display: inline-block;
+	margin-left: 0;
+}
+
+.menu li{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+.menu a{
+	color: white;
+	text-decoration: none;
+}
+
+.contenedor{
+
+	width: 800px;
+	margin: auto;
+}
+
+.cuenta{
+	display: flex;
+    align-items: center;
+    background: white;
+    width: 399px;
+}
+
+.balance{
+	display: flex;
+	align-items: center;
+}
+
+
+.ether{
+
+	padding:10px;
+	margin: 10px;
+	/*overflow: hidden;*/
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+.button{
+	border-radius: 5px;
+	border: none;
+	padding: 5px;
+	background: #10437a;/*linear-gradient(to right,#10437a, #1b4f72 );*/
+}
+
+
+.derecha{
+
+	float: right;
+	position: relative;
+	top:-20px;
+}
+
+.izquierda{
+
+	float: left;
+	position: relative;
+	top: -20px;
+}
+
+.header{
+	position: relative;
+	display: flex;
+	align-items: center;
+    color:#1b4f72;
+}
+
+.footer{
+	background: #273b47;
+}
+
+.contacto{
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 350px;
+	text-align: center;
+	
+}
+
+.contacto strong{
+	display: block;
+}
+
+.contacto a{
+	text-decoration: none;
+	color: white;
+	margin: 10px 10px 10px 0;
+}
+
+.footer .contenedor{
+	display: flex;
+	justify-content: space-between;
+}
+
+.formulario{
+
+	display: flex;
+	width: 400px;
+	color: white;
+}
+
+.col1, .col2{
+	display: flex;
+	flex-direction: column;
+}
+
+.col1{
+	margin-right: 15px; 
+}
+
+.intereses label{
+	font-size: 12px;
+}
+
+.formulario label, .sexo, .intereses{
+	margin-bottom: 10px;
+}
+
+.sexo{
+	margin-top: 30px
+}
+
+table{
+	width: 100%;
+	margin: 50px;
+}
+
+th{
+	background: #273b47;
+	color: white;
+	text-align: left;
+}
+
+th{
+	padding: 10px
+}
+
+td{
+	padding: 15px;
+}
+
+table, td,th{
+
+	border: 1px solid #273b47 ;
+	border-collapse: collapse;
+}
