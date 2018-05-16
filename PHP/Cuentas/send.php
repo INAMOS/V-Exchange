@@ -72,7 +72,7 @@
                         <img  id="loader" src="../../Imagenes/loading.gif" style="width:100px;display:none">
                         <br>
                         <button id="boton">Enviar Token</button>
-                        <h2 id="hashMessage"></h2>
+                        <h2 id="hashmessage"></h2>
                     </form>
   
                     

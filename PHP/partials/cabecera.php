@@ -9,7 +9,7 @@
     <script src="../../Scripts/conection.js"></script>
 	<script src="../../Scripts/send.js"></script>
 	<script src="../../Scripts/contract.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
 	
 </head>
 <body>
@@ -18,22 +18,22 @@
 	<header  id="header" class="header contenedor">
 			
 			<figure class="logotipo"> <!--logotipo-->
-                <img src="../../Imagenes/ethereum.png"  width="50" height="50" alt="ethereum logo">
+                <img src="../../Imagenes/ethereum.svg"  width="50" height="50" alt="ethereum logo">
                 <figcaption>V-Exchange</figcaption>
 			</figure>
 
 			<nav class="menu"> <!--menu-->
 				<ul>
 					<li>
-						<a href="../user.php"><i class="fa fa-home"></i> Home</a>
+						<a href="../user.php"><i class="icon-home"></i> Home</a>
 					</li>
 
 					<li>
-						<a href="Contratos.php"><i class="fab fa-ethereum"></i> Token</a>
+						<a href="Contratos.php"><i class="icon-coin-dollar"></i> Token</a>
 					</li>
 
 					<li>
-						<a href="send.php"><i class="fa fa-arrow-circle-o-up"></i> Enviar</a>
+						<a href="send.php"><i class="icon-circle-up"></i> Enviar</a>
 					</li>
 				</ul>
 			</nav>
