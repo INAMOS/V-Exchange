@@ -55,7 +55,7 @@
 					    <h1 class="titulo">V-<span>Bienvenido</span> <?php echo $_SESSION["usuario"]["nombre"]?></h1><!--titulo-->
 
 						<!--<h3 class="title-a">El Poder del Blockchain en tus manos</h3>--><!--slogan-->
-						<p style="color:gray">
+						<p style="color:gray;border-bottom:5px solid gray;border-top: 5px solid gray">
 
 							V-Exchange es una cartera open source, descentralizada que permite la creación de acuerdos de contratos inteligentes entre pares,
 							basada en el modelo blockchain.​<br>​<br>
@@ -66,7 +66,7 @@
 
 						</p>
 
-					    <button id="boton" style="color:white" class="button" onclick=""><strong>Empieza por aqui</strong></button><!--Boton-->
+					    <button id="" style="color:white" class="button" onclick="window.location.href='Cuentas/cuentas.php'"><strong>Empieza por aqui</strong></button><!--Boton-->
                     
                 </div>
 			
