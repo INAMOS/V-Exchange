@@ -41,5 +41,11 @@ class Controlador{
         return Dao::registrar($obj_usuario);
     }
 
+    public static function Exportar($nombre){
+        
+        return Dao::Exportar($nombre);
+
+    }
+
 }
 ?>

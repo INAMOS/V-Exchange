@@ -117,6 +117,32 @@ class DAO extends Conecction{
         
       return false;  
     
+
+    }
+
+    public static function Exportar($nombre){
+        
+        self::get_Conexion();
+
+        $slash=".\.";
+        
+        $r=explode('.',$slash);
+
+        $ruta=dirname(getcwd());
+
+        $ruta= str_replace($r,"/",getcwd());
+        
+        $tabla=explode('.',$nombre);
+
+        $query="LOAD DATA INFILE '$ruta/backups/$nombre' INTO TABLE ".$tabla[0]." FIELDS TERMINATED BY '|' LINES TERMINATED BY ';' "; 
+        
+        $resultado=self::$cnx->prepare($query);
+
+        if($resultado->execute()){
+            return true;
+        }
+        
+        return false;
     
     }
 }

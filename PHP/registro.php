@@ -18,12 +18,12 @@ if(isset($_SESSION["usuario"])){
 
     <header class="header">
             <figure>
-            <img src="../Imagenes/ethereum.png" width="50px" alt="ethereum-logo">
+            <img src="../Imagenes/ethereum.svg" style="margin-bottom:10px;" width="50px"  height="50px" alt="ethereum-logo">
             <figcaption style="color:white">V-Exchange</figcaption>
             </figure>
             <nav class="menu">
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../index.html"><i class="icon-home"></i>Home</a></li>
                 </ul>
             </nav>
     </header>

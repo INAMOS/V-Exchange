@@ -30,6 +30,7 @@
 					
 					<figure class="logotipo"> <!--logotipo-->
 						<img  src="../Imagenes/ethereum.svg" width="50" height="50" alt="Ethereum logo">
+						<figcaption>V-Exchange</figcaption> 
 					</figure>
 
 					<nav class="menu"> <!--menu-->
@@ -44,6 +45,12 @@
 							<?php } ?>
 							<li>
 								<a href="Vista/cerrarSesion.php" ><i class="icon-exit"></i>Cerrar Sesion</a>
+							</li>
+							<li>
+								<a href="Vista/cerrarSesion.php" ><i class="icon-exit"></i>Cerrar Sesion</a>
+							</li>
+							<li>
+								<a href="Cuentas/Backup.php" ><i class=""></i>Configuraciones</a>
 							</li>
 						</ul>
 					</nav>
